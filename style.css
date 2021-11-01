@@ -1,0 +1,98 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.line{
+    width: 70px;
+    height: 5px;
+    background-color: black;
+    margin: 5px auto;
+}
+#advantage{
+    background:linear-gradient(pink,skyblue);
+    margin: 35px;
+}
+#about{
+    background:linear-gradient(pink,skyblue);
+    margin: 35px;
+}
+#introduction{
+    background:linear-gradient(orange,lightgreen);
+    margin: 35px;
+}
+p{
+    font-size: 25px;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    color: black;
+}
+#image{
+    border-radius: 50%;
+}
+img{
+    width: 250px;
+    height: 350px;
+}
+#artbyfav{
+    background:linear-gradient(pink,skyblue);
+    margin: 35px;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    font-family: cursive;
+    float: left
+    cursor:pointer;
+    color: black;
+    z-index: 99999;
+    opacity: 0.8;
+    background-color: aqua
+}
+li{
+     float: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    color: black;
+}
+li:hover{
+    color: darkblue;
+}
+#articles{
+    background:linear-gradient(pink,skyblue)
+}
+#Fransis {
+     transition: transform .2s;
+}
+#Fransis:hover{
+    transform: scale(0.9);
+}
+#farjana {
+     transition: transform .2s;
+    width: 250px;
+    height::300px;
+}
+#farjana:hover{
+    transform: scale(0.9);
+}
+#inspiration{
+    background: linear-gradient(pink,skyblue)
+}
+#Contactme h3{
+    display: inline;
+}
+a{
+    text-decoration: none !important;
+}
+#Contactme a{
+    color: black !important;
+}
+contact iframe{
+    width: 80%;
+}
+#contact{
+    background:linear-gradient(pink,skyblue)
+}
